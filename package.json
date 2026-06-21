@@ -1,0 +1,48 @@
+{
+  "name": "gold-ai-analyst",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Vercel-ready XAUUSD AI market analyst and trade alert dashboard.",
+  "engines": {
+    "node": "24.x"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "@tailwindcss/postcss": "4.1.18",
+    "@vercel/analytics": "2.0.1",
+    "@vercel/speed-insights": "2.0.0",
+    "class-variance-authority": "0.7.1",
+    "clsx": "2.1.1",
+    "date-fns": "4.1.0",
+    "lightweight-charts": "5.2.0",
+    "lucide-react": "0.562.0",
+    "next": "16.2.9",
+    "react": "19.2.7",
+    "react-dom": "19.2.7",
+    "recharts": "3.8.1",
+    "tailwind-merge": "3.4.0",
+    "tailwindcss": "4.1.18",
+    "zod": "4.2.1"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "6.9.1",
+    "@testing-library/react": "16.3.2",
+    "@types/node": "24.10.3",
+    "@types/react": "19.2.7",
+    "@types/react-dom": "19.2.3",
+    "@vitejs/plugin-react": "5.1.2",
+    "eslint": "10.5.0",
+    "eslint-config-next": "16.2.9",
+    "jsdom": "29.1.1",
+    "typescript": "6.0.3",
+    "vitest": "4.1.0"
+  }
+}
